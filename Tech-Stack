@@ -1,0 +1,38 @@
+Possible < Tech Stack > && < Requirements > 
+--------------------------------------------
+
+- VS CODE EXTENSION DEVELOPMENT:
+  -> Language - TypeScript / JavaScript
+  -> VS code API - Provides APIs to interact with the editor, workspace, and UI.
+  -> Webview API - To create the sidebar UI
+  -> Node.js - For backend logic and file system operations
+
+- FIREBASE:
+  -> Firebase Authentication - for google login
+  -> Firestore - To store project metadata (file names, project details)
+  -> Firebase SDK - To interact with Firebase Services
+
+- FRONTEND:
+  -> HTML/CSS - For the side-bar UI
+  -> JAVASCRIPT/TYPESCRIPT - For handling UI interactions
+
+- BUILD TOOLS:
+  -> Webpack - To bundle the extension.
+  -> VS code Extension Generator - To scaffold the project
+
+- Testing:
+  -> Mocha/Chai - For unit testing
+  -> VS Code Test Runner - For extension Testing
+
+
+Best < Tech Stack >
+--------------------
+
+- TypeScript
+  -> Strongly typed and well-supported by VS Code
+- Firebase
+  -> Easy to set-up and scalable for this use case
+- Webpack
+  -> For efficient bundling
+- VS Code API
+  -> Essential for extension development
